@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspWebApi50", "AspWebApi50\AspWebApi50.csproj", "{FC490A0F-73C7-410E-9BF1-EDD7C625A888}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC490A0F-73C7-410E-9BF1-EDD7C625A888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC490A0F-73C7-410E-9BF1-EDD7C625A888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC490A0F-73C7-410E-9BF1-EDD7C625A888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC490A0F-73C7-410E-9BF1-EDD7C625A888}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC4CDD15-D220-4F93-91E6-5F45E4649067}
+	EndGlobalSection
+EndGlobal
