@@ -20,6 +20,16 @@ namespace AspWebApi50.Controllers
             _context = context;
         }
 
+        // GET: api/Users/{username}/{password}
+        [HttpGet("login/{username}/{password}")]
+        public async Task<ActionResult<User>> Login(string username, string password) {
+            var user = await _context.Users.SingleOrDefaultAsync(u => u.Username == username && u.Password == password);
+            if(user == null) {
+                return NotFound();
+            }
+            return user;
+        }
+
         // GET: api/Users
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> GetUsers()
